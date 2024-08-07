@@ -108,7 +108,7 @@ class ModelTrainer:
 
 
             save_object(
-                filepath=self.model_trainer_config.trained_model_file_path,
+                file_path=self.model_trainer_config.trained_model_file_path,
                 obj=best_model
             )
 
