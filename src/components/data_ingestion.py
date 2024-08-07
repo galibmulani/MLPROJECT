@@ -18,11 +18,12 @@ class DataIngestionConfig:
 
 class DataIngestion:
     def __init__(self):
-        self.data_ingestion_config=DataIngestionConfig()
+        self.data_ingestion_config=Da
+        taIngestionConfig()
 
     def initiate_data_ingestion(self):
         logging.info("Enter the data ingestion")
-        os.chdir(r"C:\Users\galib\AI\Projects\MLPROJECT\src")
+        # error : folder restructure os.chdir(r"C:\Users\galib\AI\Projects\MLPROJECT\src")
         try:
             df=pd.read_csv("notebooks\data\stud.csv")
             logging.info("reading the csv file")
